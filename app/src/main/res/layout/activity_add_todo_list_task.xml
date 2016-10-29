@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/taskTitleET"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textSize="20sp"
+        android:hint="@string/add_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/taskDueDateET"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textSize="20sp"
+        android:hint="@string/add_task_due_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/taskNoteET"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textSize="20sp"
+        android:hint="@string/add_task_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/taskStateET"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:textSize="20sp"
+        android:hint="@string/add_task_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textSize="20sp"
+        android:text="@string/add"
+        android:id="@+id/addTaskBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BITM_TodoList</string>
+    <string name="group_name">Group Name</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="add_todolist_group">Add TodoList Group</string>
+    <string name="add_task_title">Add Task Title</string>
+    <string name="add_task_due_date">Add Task DueDate</string>
+    <string name="add_task_note">Add Task Note</string>
+    <string name="add_task_state">Add Task State</string>
+    <string name="delete">Delete</string>
+    <string name="add_todolist_task">Add TodoList Task</string>
+</resources>
